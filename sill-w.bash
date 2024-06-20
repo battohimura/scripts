@@ -10,5 +10,11 @@ export NVM_DIR="$HOME/.nvm"
 # Cambiar la versión de Node.js
 nvm use 18
 
+# Instalar yarn
+npm install -g yarn
+
+# Instalar dependencias con yarn
+yarn install
+
 # Ejecutar el proyecto con yarn dev
 yarn dev
